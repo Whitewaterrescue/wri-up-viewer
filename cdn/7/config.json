@@ -388,6 +388,12 @@
           "widgetId": "widget_300",
           "bbox": {},
           "setting": {}
+        },
+        "20": {
+          "type": "WIDGET",
+          "widgetId": "widget_301",
+          "bbox": {},
+          "setting": {}
         }
       },
       "type": "FIXED",
@@ -402,7 +408,8 @@
         "8",
         "9",
         "10",
-        "19"
+        "19",
+        "20"
       ]
     },
     "layout_7": {
@@ -9185,7 +9192,7 @@
                 "name": "temperature",
                 "type": "NUMBER",
                 "esriType": "esriFieldTypeDouble",
-                "alias": "Temperature (\u00b0F)",
+                "alias": "Temperature (°F)",
                 "format": {
                   "digitSeparator": true,
                   "places": 2
@@ -23331,6 +23338,21 @@
       "useMapWidgetIds": [
         "widget_1"
       ]
+    },
+    "widget_301": {
+      "id": "widget_301",
+      "uri": "widgets/presentation-mode/",
+      "version": "1.0.0",
+      "label": "Presentation Mode",
+      "config": {
+        "clientName": "UP",
+        "mapKey": "response",
+        "serviceUrl": "https://services6.arcgis.com/Ji79lWGR5B33LhY7/arcgis/rest/services/WRI_Presentations/FeatureServer/0",
+        "portalUrl": "https://wrienviro.maps.arcgis.com"
+      },
+      "useMapWidgetIds": [
+        "widget_1"
+      ]
     }
   },
   "widgetsManifest": {},
@@ -24300,7 +24322,14 @@
     }
   },
   "attributes": {
-    "portalUrl": "https://WRIEnviro.maps.arcgis.com"
+    "portalUrl": "https://WRIEnviro.maps.arcgis.com",
+    "isWebTier": false,
+    "clientId": "wRqBZ03NUnArrt0b",
+    "express": false,
+    "title": "UP Response Viewer",
+    "description": "",
+    "type": "Web Experience",
+    "thumbnail": null
   },
   "sharedThemeVariables": null,
   "dataSources": {
