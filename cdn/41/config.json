@@ -150,19 +150,6 @@
       "header": true,
       "footer": false
     },
-    "page_22": {
-      "id": "page_22",
-      "mode": "FIT_WINDOW",
-      "type": "NORMAL",
-      "layout": {
-        "LARGE": "layout_103"
-      },
-      "isDefault": false,
-      "isVisible": true,
-      "label": "Resources",
-      "header": true,
-      "footer": false
-    },
     "page_23": {
       "id": "page_23",
       "mode": "FIT_WINDOW",
@@ -369,12 +356,6 @@
           "bbox": {},
           "setting": {}
         },
-        "16": {
-          "type": "WIDGET",
-          "widgetId": "widget_280",
-          "bbox": {},
-          "setting": {}
-        },
         "18": {
           "type": "WIDGET",
           "widgetId": "widget_282",
@@ -417,7 +398,6 @@
       "order": [
         "15",
         "18",
-        "16",
         "3",
         "5",
         "6",
@@ -7716,26 +7696,6 @@
             "hCenter": false
           }
         },
-        "1": {
-          "type": "WIDGET",
-          "widgetId": "widget_290",
-          "bbox": {
-            "left": "0.0%",
-            "right": "0.0%",
-            "top": "0.0%",
-            "bottom": "2.7%",
-            "width": "100.0%",
-            "height": "97.3%"
-          },
-          "setting": {
-            "autoProps": {
-              "left": true,
-              "right": false,
-              "top": false,
-              "bottom": true
-            }
-          }
-        },
         "2": {
           "type": "WIDGET",
           "widgetId": "widget_293",
@@ -7801,89 +7761,13 @@
             "vCenter": false,
             "hCenter": false
           }
-        },
-        "5": {
-          "type": "WIDGET",
-          "widgetId": "widget_296",
-          "bbox": {
-            "left": "33.6%",
-            "right": "59.9%",
-            "top": "2.0%",
-            "bottom": "94.5%",
-            "width": "6.5%",
-            "height": "3.5%"
-          },
-          "setting": {
-            "autoProps": {
-              "left": false,
-              "right": true,
-              "top": false,
-              "bottom": true
-            },
-            "vCenter": false,
-            "hCenter": false
-          }
         }
       },
       "order": [
-        "1",
         "0",
         "2",
         "3",
-        "4",
-        "5"
-      ]
-    },
-    "layout_103": {
-      "type": "FIXED",
-      "content": {
-        "0": {
-          "type": "WIDGET",
-          "widgetId": "widget_291",
-          "bbox": {
-            "left": "0.0%",
-            "right": "0.0%",
-            "top": "97.1%",
-            "bottom": "0.0%",
-            "width": "100.0%",
-            "height": "2.9%"
-          },
-          "setting": {
-            "autoProps": {
-              "height": "AUTO",
-              "right": false,
-              "left": true,
-              "top": true,
-              "bottom": false
-            },
-            "vCenter": false,
-            "hCenter": false
-          }
-        },
-        "1": {
-          "type": "WIDGET",
-          "widgetId": "widget_292",
-          "bbox": {
-            "left": "0.0%",
-            "right": "0.0%",
-            "top": "0.0%",
-            "bottom": "3.0%",
-            "width": "100.0%",
-            "height": "97.0%"
-          },
-          "setting": {
-            "autoProps": {
-              "left": true,
-              "right": false,
-              "top": false,
-              "bottom": true
-            }
-          }
-        }
-      },
-      "order": [
-        "0",
-        "1"
+        "4"
       ]
     },
     "layout_104": {
@@ -8476,10 +8360,6 @@
             "widget_279": {
               "width": 1120,
               "height": 871
-            },
-            "widget_280": {
-              "width": 1109,
-              "height": 597
             },
             "widget_281": {
               "width": 892,
@@ -22405,20 +22285,6 @@
       "id": "widget_279",
       "useDataSources": []
     },
-    "widget_280": {
-      "uri": "widgets/common/embed/",
-      "version": "1.19.0",
-      "label": "Resource Tracking",
-      "config": {
-        "embedType": "url",
-        "expression": "<p>https://script.google.com/macros/s/AKfycbyivMxwODYCzUVdotat2UlcqjgRtjNZuNKym0w9w9kwb_pMgWH607GG0kAhIYPXZQuR/exec?page=dashboard</p>",
-        "enableLabel": false,
-        "autoRefresh": true,
-        "autoInterval": 60
-      },
-      "id": "widget_280",
-      "useDataSources": []
-    },
     "widget_282": {
       "uri": "widgets/common/embed/",
       "version": "1.19.0",
@@ -22559,53 +22425,6 @@
       },
       "id": "widget_289"
     },
-    "widget_290": {
-      "uri": "widgets/common/embed/",
-      "version": "1.19.0",
-      "label": "Embed 8",
-      "config": {
-        "embedType": "url",
-        "expression": "<p>https://script.google.com/macros/s/AKfycbw_6ZgKWGssL6errLFW5XTiCrMlvfXTHgDEBzwRS_oytoQxtMoPagsgC9gw_1PC2Udl/exec</p>",
-        "enableLabel": false
-      },
-      "id": "widget_290",
-      "useDataSources": []
-    },
-    "widget_291": {
-      "uri": "widgets/common/menu/",
-      "version": "1.19.0",
-      "label": "Menu 12",
-      "config": {
-        "type": "nav",
-        "vertical": false,
-        "menuStyle": "pills",
-        "advanced": true,
-        "variant": {
-          "root": {
-            "bg": "#f9ba1c"
-          },
-          "item": {
-            "default": {
-              "color": "#ffffff",
-              "bg": "#012a84"
-            }
-          }
-        }
-      },
-      "id": "widget_291"
-    },
-    "widget_292": {
-      "uri": "widgets/common/embed/",
-      "version": "1.19.0",
-      "label": "Embed 9",
-      "config": {
-        "embedType": "url",
-        "expression": "<p>https://script.google.com/macros/s/AKfycbyivMxwODYCzUVdotat2UlcqjgRtjNZuNKym0w9w9kwb_pMgWH607GG0kAhIYPXZQuR/exec?page=dashboard</p><p><br></p>",
-        "enableLabel": false
-      },
-      "id": "widget_292",
-      "useDataSources": []
-    },
     "widget_293": {
       "uri": "widgets/common/button/",
       "version": "1.19.0",
@@ -22617,7 +22436,7 @@
           "linkParam": {
             "linkType": "WEB_ADDRESS",
             "openType": "_blank",
-            "value": "https://script.google.com/macros/s/AKfycbw_6ZgKWGssL6errLFW5XTiCrMlvfXTHgDEBzwRS_oytoQxtMoPagsgC9gw_1PC2Udl/exec",
+            "value": "https://whitewaterrescue.github.io/wri-field-app/apps/?app=ops&page=v2",
             "expression": null
           }
         },
@@ -22641,7 +22460,7 @@
           "linkParam": {
             "linkType": "WEB_ADDRESS",
             "openType": "_blank",
-            "value": "https://script.google.com/macros/s/AKfycbwpGAS5c2msLVK46NvkRD2WxmObymgK2Nj_Rt3fNFHw_mKAC34fbUjKmvDf2zBcLolGyg/exec",
+            "value": "https://whitewaterrescue.github.io/wri-field-app/apps/?app=ops&page=v2-resl",
             "expression": null
           }
         },
@@ -22665,7 +22484,7 @@
           "linkParam": {
             "linkType": "WEB_ADDRESS",
             "openType": "_blank",
-            "value": "https://script.google.com/macros/s/AKfycbwpGAS5c2msLVK46NvkRD2WxmObymgK2Nj_Rt3fNFHw_mKAC34fbUjKmvDf2zBcLolGyg/exec?page=logistics",
+            "value": "https://whitewaterrescue.github.io/wri-logistics/",
             "expression": null
           }
         },
@@ -22692,46 +22511,6 @@
         }
       },
       "id": "widget_295",
-      "useDataSources": []
-    },
-    "widget_296": {
-      "uri": "widgets/common/button/",
-      "version": "1.19.0",
-      "label": "Button 67",
-      "config": {
-        "functionConfig": {
-          "text": "Finance",
-          "textExpression": null,
-          "linkParam": {
-            "linkType": "WEB_ADDRESS",
-            "openType": "_blank",
-            "value": "https://script.google.com/macros/s/AKfycbwpGAS5c2msLVK46NvkRD2WxmObymgK2Nj_Rt3fNFHw_mKAC34fbUjKmvDf2zBcLolGyg/exec?page=finance",
-            "expression": null
-          }
-        },
-        "styleConfig": {
-          "themeStyle": {
-            "quickStyleType": "primary"
-          },
-          "useCustom": true,
-          "customStyle": {
-            "hover": {
-              "enableDynamicStyle": false
-            },
-            "regular": {
-              "enableDynamicStyle": false,
-              "background": {
-                "color": "var(--success-700)",
-                "fillType": "fill"
-              },
-              "text": {
-                "color": "var(--dark)"
-              }
-            }
-          }
-        }
-      },
-      "id": "widget_296",
       "useDataSources": []
     },
     "widget_298": {
@@ -26051,9 +25830,6 @@
     },
     {
       "page_20": []
-    },
-    {
-      "page_22": []
     },
     {
       "page_23": []
