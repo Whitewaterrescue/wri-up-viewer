@@ -262,27 +262,6 @@
             "hCenter": false
           }
         },
-        "5": {
-          "type": "WIDGET",
-          "widgetId": "widget_278",
-          "bbox": {
-            "left": "67.2%",
-            "right": "26.8%",
-            "top": "75.4%",
-            "bottom": "17.7%",
-            "width": "6.0%",
-            "height": "6.8%"
-          },
-          "setting": {
-            "autoProps": {
-              "right": false,
-              "left": true,
-              "top": true,
-              "bottom": false
-            }
-          },
-          "isPending": true
-        },
         "6": {
           "type": "WIDGET",
           "widgetId": "widget_276",
@@ -310,7 +289,6 @@
       "order": [
         "1",
         "4",
-        "5",
         "6"
       ]
     },
@@ -22260,18 +22238,6 @@
         "styleConfig": {}
       },
       "id": "widget_277"
-    },
-    "widget_278": {
-      "uri": "widgets/common/embed/",
-      "version": "1.19.0",
-      "label": "Live Stream",
-      "config": {
-        "embedType": "url",
-        "expression": "<p>https://dilojsz7ulq9z.cloudfront.net/&nbsp;&nbsp;</p>",
-        "enableLabel": false
-      },
-      "id": "widget_278",
-      "useDataSources": []
     },
     "widget_279": {
       "uri": "widgets/common/embed/",
